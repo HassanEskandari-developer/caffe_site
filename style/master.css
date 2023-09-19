@@ -1,0 +1,744 @@
+body {
+  background-image: url(photo/Accent_Shadow_72dpi_700x700_cc.jpg);
+  background-size: cover;
+  overflow-x: hidden;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.slid {
+  background: url(photo/c-sl-012.jpg);
+  background-size: cover;
+  position: relative;
+  height: 110vh;
+}
+.slid::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(15, 14, 14, 0.381);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+header > div {
+  height: 80px;
+}
+
+.btn-1, .btn-2 {
+  height: 70px;
+  width: 100px;
+  background: none;
+}
+.btn-1 > a, .btn-2 > a {
+  text-decoration: none;
+}
+
+.welcom > div > button {
+  width: 120px;
+  height: 60px;
+  border: 1px solid white;
+  border-radius: 10px;
+  position: relative;
+  z-index: 900;
+}
+.welcom > div > button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(49, 49, 48, 0.4352941176);
+  width: 0;
+  height: 100%;
+  transition: 0.4s;
+  border-radius: 10px;
+  z-index: 800;
+}
+.welcom > div > button:hover::after {
+  width: 100%;
+}
+.welcom > div > button:nth-last-of-type(2) {
+  background-color: #c49b63;
+}
+
+.cont {
+  height: 150px;
+  background-color: black;
+}
+@media screen and (max-width: 769px) {
+  .cont {
+    height: 300px;
+  }
+}
+.cont > div > p {
+  margin-left: 30px;
+}
+.cont > div > p > i {
+  color: #c49b63;
+}
+
+.both > section {
+  margin-left: -5%;
+  width: 650px;
+}
+.both > section > div {
+  height: 350px;
+  background-color: rgba(21, 17, 17, 0.7294117647);
+}
+.both > section > div > h2 {
+  color: #c49b63;
+}
+.both > section > div > p {
+  color: gray;
+}
+
+._img {
+  background-size: cover;
+}
+@media screen and (max-width: 769px) {
+  ._img {
+    width: 100%;
+  }
+}
+
+.servis {
+  background-color: #c49b63;
+  height: 600px;
+  margin-left: 1px;
+}
+@media screen and (max-width: 769px) {
+  .servis {
+    margin-top: 350px;
+    height: 150vh;
+    background-color: #c49b63;
+  }
+}
+.servis > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.servis > div > figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.servis > div > figure > img {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(105, 81, 81);
+}
+.servis > div > h2 {
+  margin-left: 20px;
+}
+.servis > div > p {
+  margin-left: 20px;
+}
+
+.oumu {
+  height: 110vh;
+}
+@media screen and (max-width: 769px) {
+  .oumu {
+    height: 170vh;
+  }
+}
+.oumu > div {
+  margin-top: 20%;
+}
+@media screen and (max-width: 769px) {
+  .oumu > div {
+    margin-top: 0;
+  }
+}
+.oumu > div > h3 {
+  color: #c49b63;
+}
+.oumu > div > h2 {
+  color: white;
+}
+.oumu > div > p {
+  color: gray;
+  margin-top: 5%;
+  width: 500px;
+  margin-left: 20%;
+}
+@media screen and (max-width: 769px) {
+  .oumu > div > p {
+    margin-left: 10%;
+    width: 400px;
+  }
+}
+.oumu > div > button {
+  background-color: #c49b63;
+  border: 1px solid #c49b63;
+  height: 60px;
+  width: 200px;
+  margin-top: 5%;
+  position: relative;
+  border: none;
+}
+.oumu > div > button:hover {
+  background-color: rgba(216, 249, 249, 0.596);
+  transition: 1s;
+}
+.oumu > div > button > a {
+  text-decoration: none;
+  color: black;
+}
+.oumu > section {
+  margin-top: 10%;
+}
+@media screen and (max-width: 769px) {
+  .oumu > section {
+    margin-top: 0;
+  }
+}
+.oumu > section > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.oumu > section > div > figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.oumu > section > div > figure > img {
+  width: 250px;
+  height: 200px;
+  gap: 20px;
+}
+@media screen and (max-width: 769px) {
+  .oumu > section > div > figure > img {
+    width: 90%;
+  }
+}
+
+.result {
+  background-image: url(photo/Cafe_D_Sweet-As-Candy-Coffees_01-300x300.jpg);
+  background-size: cover;
+  height: 300px;
+  position: relative;
+}
+.result::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(15, 14, 14, 0.521);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@media screen and (max-width: 769px) {
+  .result {
+    height: 130vh;
+  }
+}
+.result > section {
+  width: 1000px;
+}
+@media screen and (max-width: 769px) {
+  .result > section {
+    flex-wrap: wrap;
+    width: auto;
+  }
+}
+.result > section > div {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.result > section > div > h3 {
+  font-size: 50px;
+  color: #c49b63;
+  border: 1px solid #c49b63;
+  width: 100px;
+  height: 90px;
+  margin-top: 5%;
+}
+.result > section > div > h2 {
+  color: #c49b63;
+}
+.result > section > div > p {
+  color: white;
+}
+
+.bestcofee {
+  height: 110vh;
+  margin-top: 10%;
+}
+@media screen and (max-width: 769px) {
+  .bestcofee {
+    height: 320vh;
+  }
+}
+.bestcofee > div {
+  margin-top: 20px;
+}
+@media screen and (max-width: 769px) {
+  .bestcofee > div {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
+.bestcofee > div > h2 {
+  color: #c49b63;
+  width: 100%;
+}
+.bestcofee > div > h3 {
+  color: white;
+}
+.bestcofee > div > p {
+  color: gray;
+}
+.bestcofee > section {
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 769px) {
+  .bestcofee > section {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+.bestcofee > section > div {
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+}
+@media screen and (max-width: 769px) {
+  .bestcofee > section > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+.bestcofee > section > div > figure > img {
+  width: 200px;
+  height: 200px;
+}
+@media screen and (max-width: 769px) {
+  .bestcofee > section > div > figure > img {
+    width: 400px;
+    height: 200px;
+  }
+}
+.bestcofee > section > div > h3 {
+  color: #c49b63;
+}
+.bestcofee > section > div > h2, .bestcofee > section > div p {
+  color: white;
+}
+@media screen and (max-width: 769px) {
+  .bestcofee > section > div > h3, .bestcofee > section > div h2 {
+    width: 100%;
+  }
+}
+.bestcofee > section > div > button {
+  width: 120px;
+  height: 40px;
+  background: none;
+  border: 1px solid #c49b63;
+  margin-top: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+.bestcofee > section > div > button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(196, 156, 99, 0.337254902);
+  width: 0;
+  height: 100%;
+  transition: 0.4s;
+  border-radius: 10px;
+}
+.bestcofee > section > div > button:hover::after {
+  width: 100%;
+}
+.bestcofee > section > div > button > a {
+  text-decoration: none;
+  color: #c49b63;
+}
+
+.photo {
+  margin-top: 10%;
+  margin-left: 0;
+  padding: 0;
+}
+@media screen and (max-width: 769px) {
+  .photo {
+    margin-top: 20%;
+  }
+}
+.photo > div {
+  padding: 0;
+}
+.photo > div > figure {
+  padding: 0;
+}
+.photo > div > figure > img {
+  width: 400px;
+  height: 350px;
+}
+@media screen and (max-width: 769px) {
+  .photo > div > figure > img {
+    width: 100%;
+  }
+}
+
+.product {
+  height: 150vh;
+}
+@media screen and (max-width: 769px) {
+  .product {
+    height: 200vh;
+  }
+}
+.product > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.product > div > h2 {
+  color: #c49b63;
+  width: 100%;
+  margin-top: 5%;
+}
+@media screen and (max-width: 769px) {
+  .product > div > h2 {
+    margin: 0;
+  }
+}
+.product > div > h3 {
+  color: white;
+  width: 100%;
+}
+@media screen and (max-width: 769px) {
+  .product > div > h3 {
+    margin: 0;
+  }
+}
+.product > div > p {
+  color: gray;
+  font-size: 20px;
+  margin-top: 5%;
+}
+@media screen and (max-width: 769px) {
+  .product > div > p {
+    margin: 0;
+  }
+}
+.product > div {
+  gap: 10px;
+}
+.product > div > button {
+  width: 150px;
+  height: 50px;
+  background: none;
+  border-bottom: 1px solid #c49b63;
+  margin-top: 5%;
+  position: relative;
+  border: none;
+}
+.product > div > button::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #c49b63;
+  transition: 1s;
+}
+.product > div > button:hover::after {
+  width: 0;
+}
+@media screen and (max-width: 769px) {
+  .product > div > button {
+    margin: 0;
+  }
+}
+.product > div > button > a {
+  text-decoration: none;
+  color: #c49b63;
+}
+.product section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (max-width: 769px) {
+  .product section {
+    flex-wrap: wrap;
+  }
+}
+.product section > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  text-align: center;
+}
+@media screen and (max-width: 769px) {
+  .product section > div {
+    display: block;
+  }
+}
+.product section > div > figure > img {
+  width: 300px;
+  height: 300px;
+}
+@media screen and (max-width: 769px) {
+  .product section > div > figure > img {
+    width: 100%;
+    margin-top: 5%;
+  }
+}
+.product section > div h2, .product section > div p, .product section > div h3 {
+  width: 100%;
+}
+.product section > div > button {
+  width: 130px;
+  height: 30px;
+  background: none;
+  border: 1px solid #c49b63;
+  margin-top: 5%;
+  border-radius: 10px;
+  position: relative;
+}
+.product section > div > button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(196, 156, 99, 0.337254902);
+  width: 0;
+  height: 100%;
+  transition: 0.4s;
+  border-radius: 10px;
+}
+.product section > div > button:hover::after {
+  width: 100%;
+}
+.product section > div > button > a {
+  text-decoration: none;
+  color: #c49b63;
+}
+.product section > div > h2, .product section > div h3 {
+  color: white;
+}
+.product section > div > p {
+  color: gray;
+}
+
+.says {
+  height: 100vh;
+  margin-top: 100px;
+}
+@media screen and (max-width: 769px) {
+  .says {
+    margin-top: 150vh;
+    margin-left: 0;
+  }
+}
+.says > div > figure > img {
+  width: 100%;
+  height: 600px;
+}
+.says > section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 769px) {
+  .says > section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.says > section > div {
+  width: 305px;
+  height: 250px;
+  background-color: #c49b63;
+  margin-top: -100px;
+  border: 1px solid black;
+  text-align: center;
+}
+.says > section > div:hover {
+  transition: 1s;
+  transform: translateY(-50px);
+  background-color: rgba(189, 253, 253, 0.676);
+}
+@media screen and (max-width: 769px) {
+  .says > section > div:hover {
+    transition: 0;
+    transform: scalex(10px);
+  }
+  .says > section > div:hover:hover {
+    background-color: rgba(195, 254, 254, 0.717);
+  }
+}
+@media screen and (max-width: 769px) {
+  .says > section > div {
+    width: 100%;
+    margin-top: -50px;
+  }
+}
+.says > section > div > p {
+  width: 100%;
+  color: white;
+}
+.says > section > div > div {
+  margin-top: 10%;
+}
+.says > section > div > div > p > i {
+  font-size: 50px;
+}
+
+.blog {
+  height: 110vh;
+  margin-top: 10%;
+}
+@media screen and (max-width: 769px) {
+  .blog {
+    height: 240vh;
+    margin-top: 150vh;
+  }
+}
+.blog > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.blog > div > h2 {
+  color: #c49b63;
+  width: 100%;
+  margin-top: 5%;
+}
+@media screen and (max-width: 769px) {
+  .blog > div > h2 {
+    margin: 0;
+  }
+}
+.blog > div > h3 {
+  color: white;
+  width: 100%;
+}
+@media screen and (max-width: 769px) {
+  .blog > div > h3 {
+    margin: 0;
+  }
+}
+.blog > div > p {
+  color: rgb(184, 183, 183);
+}
+@media screen and (max-width: 769px) {
+  .blog > div > p {
+    margin: 0;
+  }
+}
+.blog > div {
+  gap: 10px;
+}
+.blog section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (max-width: 769px) {
+  .blog section {
+    flex-wrap: wrap;
+  }
+}
+.blog section > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  text-align: center;
+}
+@media screen and (max-width: 769px) {
+  .blog section > div {
+    display: block;
+  }
+}
+.blog section > div > figure > img {
+  width: 300px;
+  height: 300px;
+}
+@media screen and (max-width: 769px) {
+  .blog section > div > figure > img {
+    width: 100%;
+    margin-top: 5%;
+  }
+}
+.blog section > div h2, .blog section > div p, .blog section > div h3 {
+  width: 100%;
+}
+.blog section > div > h2, .blog section > div h3 {
+  color: white;
+}
+.blog section > div > p {
+  color: gray;
+}
+.blog section > div > h5 {
+  color: rgba(196, 156, 99, 0.5921568627);
+}
+
+.table {
+  height: 75vh;
+}
+@media screen and (max-width: 769px) {
+  .table {
+    height: 150vh;
+  }
+}
+.table > div > figure > img {
+  width: 700px;
+  height: 500px;
+}
+@media screen and (max-width: 769px) {
+  .table > div > figure > img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
+.table > div > form > div {
+  background: none;
+}
+.table > div > form > div > input, .table > div > form > div textarea {
+  background: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid #c49b63;
+  border-left: 1px solid #c49b63;
+}
+.table > div > form > button {
+  background-color: #c49b63;
+  width: 100px;
+  height: 50px;
+}
+
+._foter > footer {
+  background-color: #c49b63;
+}/*# sourceMappingURL=master.css.map */
